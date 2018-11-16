@@ -1,66 +1,97 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
         "http://www.w3.org/TR/html4/strict.dtd">
-	
-<html>
-	<head>
-		<title>Johan Hidding pages</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<meta name="author" content="Johan Hidding">
-		<link type="text/css" rel="stylesheet" href="style.css">
-	</head>
 
-	<body> <div id="centred-content">
-		<div id="header"> <img src="umbilic.png" alt="umbilic bracelet"> <span class="txt">(...) <br>
-		<div style="position: relative; top: -150px; font: 16pt bold; font-family: 'GFS Didot'; text-align: right; padding:2pt;">
-			Johan Hidding's github pages
-			</div> </span></div>
-		<div id="navigation"> 
-			<a href="#projects">(Projects)</a>
-		</div>
-		<div class="block">
-			<a id="projects"><h2>Projects</h2></a>
-			<ul>
-				<li> <a href="https://jhidding.github.io/adhesion-code/">Adhesion model</a> </li>
-				<li> <a href="https://jhidding.github.io/scam/">Scam 3D plotting</a> </li>
-			</ul>
-		</div>
-		<address> 
-		by Johan Hidding, Copyright 2018, Contact me at:
-		<!--EScrambled Email Address Code--> 
-		 
-		<!--For help with this code go to--> 
-		<!--http://innerpeace.org/escrambler.shtml--> 
-		 
-		<script type="text/javascript">	
-		<!--
-		function escramble()
-		{
-			var a,b,c,d,e,f,g,h,i
-			a='<a href=\"mai'
-			b='johann'
-			c='\">'
-			b+='es.hiddi'
-			a+='lto:'
-			b+='ng'
-			b+='@'
-			e='<\/a>'
-			f=''
-			b+='gma'
-			g='<img src=\"'
-			h=''
-			b+='il.com'
-			i='\" alt="send me mail." border="0">'
-		 
-			if (f) d=f
-			else 
-				if (h) d=g+h+i
-				else d=b
-			
-			document.write(a+b+c+d+e)
-		}
-		//-->
-		escramble()
-		</script>
-		</address> 
-	</div> </body>
+<html>
+    <head>
+        <title>Johan Hidding pages</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <meta name="author" content="Johan Hidding">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
+    </head>
+
+    <body> <div id="centred-content">
+        <div id="header"> <img src="umbilic.png" alt="umbilic bracelet"> <span class="txt">(...) <br>
+        <div style="position: relative; top: -150px; font: 16pt bold; font-family: 'GFS Didot'; text-align: right; padding:2pt;">
+            Johan Hidding's github pages
+            </div> </span></div>
+        <div id="navigation">
+            <a href="#astronomy">(Astronomy)</a>
+            <a href="#computing">(Computing)</a>
+            <a href="#graphics">(Graphics)</a>
+        </div>
+        <div class="block" id="astronomy">
+            <a id="astronomy"><h2>Astronomy</h2></a> <!--<div class="illustration"></div>-->
+            <p>My research interests in astronomy lie in <i>cosmic structure formation</i>. I studied the formation of the cosmic web as it is described by the Zeldovich approximation and the adhesion model.</p>
+            <ul>
+                <li> <a href="https://github.com/jhidding/adhesion-example/">Adhesion example</a>, Python notebooks showing how to compute the adhesion model in 2D.</li>
+                <li> <a href="https://jhidding.github.io/adhesion-code/">Adhesion model</a>, a literate C++ code for computing the 3D adhesion model using Voronoi tessellations.</li>
+            </ul>
+        </div>
+        <div class="block" id="computing">
+            <a id="computing"><h2>Computing</h2></a><div class="illustration"></div>
+            <p>I work at the <a href="http://esciencecenter.nl">Netherlands eScience Center</a>, where I collaborate with scientists that work on many different subjects.</p>
+            <dl>
+                <dt>Utilities</dt>
+                <dd><ul>
+                    <li> <a href="https://github.com/jhidding/pd-tangle">Pandoc Tangle</a>, a literate programming tool for Pandoc.</li>
+                    <li> <a href="https://github.com/nlesc/noodles">Noodles</a>, a task-based parallel programming engine for Python.</li>
+                    <li> <a href="https://github.com/nlesc/pyxenon">PyXenon</a>, Python interface to the Xenon middleware.</li>
+                    <li> <a href="https://github.com/jhidding/shell-bar">Shell-bar</a>, a nifty Bash prompt.</li>
+                </ul></dd>
+                <dt>Climate data analysis</dt>
+                <dd><ul>
+                    <li> <a href="https://github.com/abrupt-climate/hyper-canny">HyperCanny</a>, a N-dimensional Canny edge detection algorithm, implemented in C++, with Python interface.</li>
+                    <li> <a href="https://github.com/abrupt-climate/hypercc">HyperCC</a>, application of HyperCanny on climate data.</li>
+                </ul></dd>
+            </dl>
+        </div>
+        <div class="block" id="graphics">
+            <a id="graphics"><h2>Graphics</h2></a><div class="illustration"></div>
+            <p>I enjoy making fancy graphics.</p>
+            <ul>
+                <li> <a href="https://jhidding.github.io/scam/">Scam 3D plotting</a>, a toolkit for making 3D vector graphics.</li>
+                <li> <a href="https://github.com/jhidding/contouring">Contouring</a>, a C++ library for creating filled contours and plotting them a Cairo surface. Includes a Guile interface.</li>
+            </ul>
+        </div>
+
+        <address>
+        by Johan Hidding, Copyright 2018, Contact me at:
+        <!--EScrambled Email Address Code-->
+
+        <!--For help with this code go to-->
+        <!--http://innerpeace.org/escrambler.shtml-->
+
+        <script type="text/javascript">
+        <!--
+        function escramble()
+        {
+            var a,b,c,d,e,f,g,h,i
+            a='<a href=\"mai'
+            b='johann'
+            c='\">'
+            b+='es.hiddi'
+            a+='lto:'
+            b+='ng'
+            b+='@'
+            e='<\/a>'
+            f=''
+            b+='gma'
+            g='<img src=\"'
+            h=''
+            b+='il.com'
+            i='\" alt="send me mail." border="0">'
+
+            if (f) d=f
+            else
+                if (h) d=g+h+i
+                else d=b
+
+            document.write(a+b+c+d+e)
+        }
+        //-->
+        escramble()
+        </script>
+        </address>
+    </div> </body>
 </html>

@@ -139,17 +139,17 @@ h2
 	height: 200px;
 }
 
-#why .illustration
+#computing .illustration
 {
 	background: url('gorilla.jpg');
 }
 
-#state .illustration
+#not-currently-used .illustration
 {
 	background: url('butterfly.jpg');
 }
 
-#gallery .illustration
+#graphics .illustration
 {
 	background: url('kunstkamer.jpg');
 }
